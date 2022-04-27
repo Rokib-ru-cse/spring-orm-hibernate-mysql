@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.AppTest" time="0.06" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/rokib-ru-cse/IdeaProjects/mavenone/target/test-classes:/home/rokib-ru-cse/IdeaProjects/mavenone/target/classes:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-core/5.3.18/spring-core-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-jcl/5.3.18/spring-jcl-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-context/5.3.18/spring-context-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-aop/5.3.18/spring-aop-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-beans/5.3.18/spring-beans-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-expression/5.3.18/spring-expression-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-jdbc/5.3.18/spring-jdbc-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-tx/5.3.18/spring-tx-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar:/home/rokib-ru-cse/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/home/rokib-ru-cse/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/rokib-ru-cse/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-17/lib"/>
+    <property name="sun.java.command" value="/home/rokib-ru-cse/IdeaProjects/mavenone/target/surefire/surefirebooter18153252011297961559.jar /home/rokib-ru-cse/IdeaProjects/mavenone/target/surefire 2022-04-26T23-14-57_470-jvmRun1 surefire2603259900692354521tmp surefire_02441371743864325866tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/rokib-ru-cse/IdeaProjects/mavenone/target/test-classes:/home/rokib-ru-cse/IdeaProjects/mavenone/target/classes:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-core/5.3.18/spring-core-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-jcl/5.3.18/spring-jcl-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-context/5.3.18/spring-context-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-aop/5.3.18/spring-aop-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-beans/5.3.18/spring-beans-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-expression/5.3.18/spring-expression-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-jdbc/5.3.18/spring-jdbc-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/org/springframework/spring-tx/5.3.18/spring-tx-5.3.18.jar:/home/rokib-ru-cse/.m2/repository/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar:/home/rokib-ru-cse/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/home/rokib-ru-cse/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/rokib-ru-cse/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/rokib-ru-cse"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-17"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/rokib-ru-cse/IdeaProjects/mavenone"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/rokib-ru-cse/IdeaProjects/mavenone/target/surefire/surefirebooter18153252011297961559.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="rokib-ru-cse"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.13.0-40-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/rokib-ru-cse/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/home/rokib-ru-cse/IdeaProjects/mavenone"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="org.example.AppTest" time="0.002"/>
+</testsuite>

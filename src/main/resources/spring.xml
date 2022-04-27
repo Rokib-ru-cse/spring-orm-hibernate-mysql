@@ -1,0 +1,42 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd-->
+<!--   http://www.springframework.org/schema/context-->
+<!--   http://www.springframework.org/schema/context/spring-context-3.0.xsd">-->
+
+<!--    <context:component-scan base-package="org.example"/>-->
+<!--    <context:annotation-config/>-->
+
+<!--    <bean name="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
+<!--        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>-->
+<!--        <property name="url" value="jdbc:mysql://localhost:3306/javafirst"/>-->
+<!--        <property name="username" value="root"/>-->
+<!--        <property name="password" value=""/>-->
+<!--    </bean>-->
+<!--    <bean name="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">-->
+<!--        <property name="dataSource" ref="ds"/>-->
+<!--    </bean>-->
+
+<!--    <bean name="userDao" class="org.example.dao.UserImple">-->
+<!--        <property name="jdbcTemplate" ref="jdbcTemplate"/>-->
+<!--    </bean>-->
+
+
+<!--    &lt;!&ndash;<bean name="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">&ndash;&gt;-->
+<!--    &lt;!&ndash;    <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    <property name="url" value="jdbc:mysql://localhost:3306/javafirst"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    <property name="username" value="root"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    <property name="password" value=""/>&ndash;&gt;-->
+<!--    &lt;!&ndash;</bean>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;<bean name="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">&ndash;&gt;-->
+<!--    &lt;!&ndash;<property name="dataSource" ref="ds"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;</bean>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    <bean name="userDao" class="org.example.dao.UserDaoImple">&ndash;&gt;-->
+<!--    &lt;!&ndash;        <property name="jdbcTemplate" ref="jdbcTemplate"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </bean>&ndash;&gt;-->
+<!--</beans>-->

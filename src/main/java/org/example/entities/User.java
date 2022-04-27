@@ -1,13 +1,26 @@
 package org.example.entities;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.sql.Timestamp;
 
+@Entity
+@Table(name = "users")
 public class User {
+    @Id
+    @Column(name = "id")
     private int id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "email")
     private String email;
+    @Column(name = "gender")
     private String gender;
+    @Column(name = "password")
     private String password;
+    @Column(name = "created_at", nullable = true)
     private Timestamp created_at;
 
     public User() {
